@@ -190,19 +190,6 @@
   color: white;
 }
 
-/* .expertise-title {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: var(--muted-color);
-  margin-bottom: 1rem;
-} */
-
-/* .expertise-description {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #64748b;
-} */
-
 .highlights {
   background: var(--card-bg);
   padding: 3rem;
