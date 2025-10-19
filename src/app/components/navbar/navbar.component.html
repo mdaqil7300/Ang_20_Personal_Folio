@@ -1,0 +1,29 @@
+<nav class="navbar">
+    <div class="nav-inner container">
+        <!-- <a class="brand" (click)="scrollTo('hero')">Aqil</a> -->
+
+        <button class="nav-toggle" aria-label="Toggle navigation" (click)="toggle()">
+            <span class="bar" [class.open]="isOpen"></span>
+            <span class="bar" [class.open]="isOpen"></span>
+            <span class="bar" [class.open]="isOpen"></span>
+        </button>
+
+        <ul class="nav-links" [class.open]="isOpen">
+            <li><a (click)="scrollTo('hero')" class="nav-item">Home</a></li>
+            <li><a (click)="scrollTo('about')" class="nav-item">About</a></li>
+            <li><a (click)="scrollTo('skills')" class="nav-item">Skills</a></li>
+            <li><a (click)="scrollTo('experience')" class="nav-item">Experience</a></li>
+            <li><a (click)="scrollTo('education')" class="nav-item">Education</a></li>
+            <li><a (click)="scrollTo('contact')" class="nav-item">Contact</a></li>
+            <li class="theme-dropdown">
+                <select (change)="applyTheme($event)" aria-label="Select Theme">
+                    <option value="default">Default</option>
+                    <option value="dark">Dark</option>
+                    <option value="light">Light</option>
+                    <option value="forest">Forest</option>
+                    <option value="sunset">Sunset</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,6 @@
+.portfolio-container {
+  width: 100%;
+  min-height: 100vh;
+  /* Add top offset to account for fixed navbar. Falls back to 64px if variable not set */
+  padding-top: calc(var(--navbar-height, 64px) + 8px);
+}

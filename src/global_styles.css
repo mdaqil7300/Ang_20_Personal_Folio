@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+:root {
+  /* Theme variables - change here to toggle light/dark easily */
+  --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  --section-bg: #0f172a;
+  --text-color: #e6eef8;
+  --muted-color: #94a3b8;
+  --accent-start: #3b82f6;
+  --accent-end: #06b6d4;
+  /* Card and surface colors (dark theme defaults) */
+  --card-bg: rgba(255, 255, 255, 0.04);
+  --card-contrast: rgba(255, 255, 255, 0.06);
+  --label-text-color: #e2e8f0;
+  /* --value-text-color: #cbd5e1; */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #1e293b;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
