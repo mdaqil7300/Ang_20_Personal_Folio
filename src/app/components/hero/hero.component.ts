@@ -14,7 +14,7 @@ export class HeroComponent {
   title = "Senior Frontend Developer";
   phone = "+91-7892479388";
   email = "mdaqil7300@gmail.com";
-  linkedin = "https://www.linkedin.com/in/md-aqil-300171191/";
+  linkedin = "https://www.linkedin.com/in/mohammad-aqil-300171191/";
   github = "https://github.com/mdaqil7300";
 
   scrollToSection(sectionId: string): void {
