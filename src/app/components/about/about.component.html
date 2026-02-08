@@ -9,29 +9,40 @@
       <div class="about-summary">
         <p class="summary-text">{{ summary }}</p>
         <p class="summary-additional">
-          Experienced in migrating projects to Angular and working with legacy code. I have solid experience in state management (NgRx), complex API integrations, and performance tuning. Hands-on with SonarQube, Docker, Kubernetes for improving code quality and deployment efficiency.
+          Experienced in migrating projects to Angular and working with legacy code. I have solid experience in state
+          management (NgRx), complex API integrations, and performance tuning. Hands-on with SonarQube, Docker,
+          Kubernetes for improving code quality and deployment efficiency.
         </p>
         <p class="summary-recognition">
-          Recognized for delivering solutions that enhance user experience, streamline processes, and reduce operational risks.
+          Recognized for delivering solutions that enhance user experience, streamline processes, and reduce operational
+          risks.
         </p>
       </div>
 
       <div class="expertise-grid">
         <div *ngFor="let item of expertise" class="expertise-card">
           <div class="expertise-icon">
-            <svg *ngIf="item.icon === 'code'" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg *ngIf="item.icon === 'code'" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
               <polyline points="16 18 22 12 16 6"></polyline>
               <polyline points="8 6 2 12 8 18"></polyline>
             </svg>
-            <svg *ngIf="item.icon === 'zap'" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg *ngIf="item.icon === 'zap'" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
               <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
             </svg>
-            <svg *ngIf="item.icon === 'layers'" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg *ngIf="item.icon === 'layers'" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
               <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
               <polyline points="2 17 12 22 22 17"></polyline>
               <polyline points="2 12 12 17 22 12"></polyline>
             </svg>
-            <svg *ngIf="item.icon === 'users'" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg *ngIf="item.icon === 'users'" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
               <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
               <circle cx="9" cy="7" r="4"></circle>
               <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -47,7 +58,8 @@
         <h3 class="highlights-title">Key Achievements</h3>
         <ul class="highlights-list">
           <li *ngFor="let highlight of highlights" class="highlight-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
             {{ highlight }}
