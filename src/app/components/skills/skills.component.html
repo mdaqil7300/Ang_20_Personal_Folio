@@ -10,21 +10,31 @@
       <div *ngFor="let category of skillCategories" class="skill-category">
         <div class="category-header">
           <div class="category-icon">
-            <svg *ngIf="category.icon === 'layout'" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg *ngIf="category.icon === 'layout'" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
               <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
               <line x1="3" y1="9" x2="21" y2="9"></line>
               <line x1="9" y1="21" x2="9" y2="9"></line>
             </svg>
-            <svg *ngIf="category.icon === 'server'" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg *ngIf="category.icon === 'server'" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
               <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
               <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
               <line x1="6" y1="6" x2="6.01" y2="6"></line>
               <line x1="6" y1="18" x2="6.01" y2="18"></line>
             </svg>
-            <svg *ngIf="category.icon === 'tool'" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+            <svg *ngIf="category.icon === 'tool'" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+              </path>
             </svg>
-            <svg *ngIf="category.icon === 'target'" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg *ngIf="category.icon === 'target'" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
               <circle cx="12" cy="12" r="10"></circle>
               <circle cx="12" cy="12" r="6"></circle>
               <circle cx="12" cy="12" r="2"></circle>
@@ -33,14 +43,16 @@
           <h3 class="category-title">{{ category.category }}</h3>
         </div>
 
-        <div class="skills-list">
-          <div *ngFor="let skill of category.skills" class="skill-item">
-            <div class="skill-header">
-              <span class="skill-name">{{ skill.name }}</span>
-              <span *ngIf="skill.level" class="skill-percentage">{{ skill.level }}%</span>
-            </div>
-            <div *ngIf="skill.level" class="skill-bar">
-              <div class="skill-progress" [style.width.%]="skill.level"></div>
+        <div class="skills-scroll">
+          <div class="skills-list">
+            <div *ngFor="let skill of category.skills" class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">{{ skill.name }}</span>
+                <span *ngIf="skill.level" class="skill-percentage">{{ skill.level }}%</span>
+              </div>
+              <div *ngIf="skill.level" class="skill-bar">
+                <div class="skill-progress" [style.width.%]="skill.level"></div>
+              </div>
             </div>
           </div>
         </div>

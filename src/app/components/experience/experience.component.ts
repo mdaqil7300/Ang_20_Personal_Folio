@@ -32,14 +32,12 @@ export class ExperienceComponent {
       location: "India",
       projects: [
         {
-          name: "Data Transformation Engine (DTE)",
-          description:
-            "Angular-based intranet platform streamlining daily workflows",
+          name: "UMR (Uncleared Margin Analytics) Application",
+          description: "Angular web application using Nx monorepo structure",
           highlights: [
-            "Developed file upload, search, and client profile management features",
-            "Designed admin dashboards for scheduling, tracking, and automated email alerts",
-            "Improved data validation and distribution workflows with Angular + RxJS",
-            "Enhanced transparency of payment processes and accuracy",
+            "Implemented Original and Hypothetical workflows for Trades and CRIF data, with calculations support.",
+            "Utilized NgRx for state management and AG Grid for large-scale, editable financial datasets.",
+            "Integrated backend services with guarded initialization, session handling, file imports, and global error handling.",
           ],
         },
         {
@@ -50,6 +48,17 @@ export class ExperienceComponent {
             "Implemented Confirmation and Settlements modules with Angular components and NgRx",
             "Improved UI performance, maintainability, and scalability",
             "Used lazy loading, shared modules, and production builds for optimization",
+          ],
+        },
+        {
+          name: "Data Transformation Engine (DTE)",
+          description:
+            "Angular-based intranet platform streamlining daily workflows",
+          highlights: [
+            "Developed file upload, search, and client profile management features",
+            "Designed admin dashboards for scheduling, tracking, and automated email alerts",
+            "Improved data validation and distribution workflows with Angular + RxJS",
+            "Enhanced transparency of payment processes and accuracy",
           ],
         },
       ],
