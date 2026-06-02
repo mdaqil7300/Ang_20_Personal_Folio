@@ -186,7 +186,7 @@
 
 .company-tab {
   padding: 1.5rem;
-  background: var(--card-bg);
+  /* background: var(--card-bg); */
   border: 2px solid rgba(255, 255, 255, 0.04);
   border-radius: 12px;
   text-align: left;
