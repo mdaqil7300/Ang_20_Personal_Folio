@@ -29,7 +29,7 @@ export class ExperienceComponent {
       company: "Accenture Solutions Pvt. Ltd",
       role: "Senior Angular Developer",
       period: "Sep 2024 - Present",
-      location: "India",
+      location: "Bengaluru",
       projects: [
         {
           name: "UMR (Uncleared Margin Analytics) Application",
