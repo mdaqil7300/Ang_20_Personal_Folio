@@ -11,7 +11,7 @@ import { environment } from "../../../environments/environment";
 })
 export class HeroComponent {
   name = "Mohammad Aqil";
-  title = "Senior Frontend Developer";
+  title = "Senior Angular Developer";
   phone = "+91-7892479388";
   email = "mdaqil7300@gmail.com";
   linkedin = "https://www.linkedin.com/in/mohammad-aqil-300171191/";

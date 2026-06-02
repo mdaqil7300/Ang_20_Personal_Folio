@@ -27,7 +27,7 @@ export class ExperienceComponent {
   experiences: Experience[] = [
     {
       company: "Accenture Solutions Pvt. Ltd",
-      role: "Senior Analyst (Frontend Developer)",
+      role: "Senior Angular Developer",
       period: "Sep 2024 - Present",
       location: "India",
       projects: [
@@ -62,6 +62,12 @@ export class ExperienceComponent {
           ],
         },
       ],
+      achievements: [
+        "Reduced application load times in large-scale Angular apps through advanced optimization techniques",
+        "Introduced NgRx state management in complex workflows, stabilizing apps and reducing bug frequency",
+        "Trained and mentored 5+ developers, improving onboarding speed and team productivity",
+        "Recognized for best practices in Angular architecture, enhancing scalability and reducing tech debt",
+      ],
     },
     {
       company: "Infosys Ltd",
@@ -92,10 +98,10 @@ export class ExperienceComponent {
         },
       ],
       achievements: [
-        "Reduced application load times in large-scale Angular apps through advanced optimization techniques",
-        "Introduced NgRx state management in complex workflows, stabilizing apps and reducing bug frequency",
-        "Trained and mentored 5+ developers, improving onboarding speed and team productivity",
-        "Recognized for best practices in Angular architecture, enhancing scalability and reducing tech debt",
+        "Designed and deployed real-time monitoring dashboards enabling faster issue and vulnerability resolution",
+        "Architected RxJS stream integrations and REST APIs for live data updates and workflow automation",
+        "Built modular, reusable Angular components improving code maintainability and team productivity",
+        "Automated critical workflows and reporting systems, reducing manual effort and enabling faster decision-making",
       ],
     },
   ];

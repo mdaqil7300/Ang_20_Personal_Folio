@@ -222,6 +222,7 @@
 }
 
 .institution-info,
+.duration-info,
 .location-info {
   display: flex;
   align-items: center;
@@ -232,6 +233,7 @@
 }
 
 .institution-info svg,
+.duration-info svg,
 .location-info svg {
   color: #64748b;
   flex-shrink: 0;

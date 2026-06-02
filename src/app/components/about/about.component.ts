@@ -9,7 +9,7 @@ import { CommonModule } from "@angular/common";
   styleUrls: ["./about.component.css"],
 })
 export class AboutComponent {
-  summary = `Frontend Developer with 4.5+ years of experience in building enterprise-level Angular applications focused on scalability, performance, and user experience. Skilled in Angular, TypeScript, JavaScript (ES6+), RxJS, NgRx, RESTful APIs, HTML5, CSS3, UI/UX optimization, responsive design, and cross-browser compatibility.`;
+  summary = `Frontend Developer with 5+ years of experience in building enterprise-level Angular applications focused on scalability, performance, and user experience. Skilled in Angular, TypeScript, JavaScript (ES6+), RxJS, NgRx, Signals, RESTful APIs, HTML5, CSS3, UI/UX optimization, responsive design, and cross-browser compatibility.`;
 
   expertise = [
     {
@@ -28,7 +28,7 @@ export class AboutComponent {
       icon: "layers",
       title: "State Management",
       description:
-        "Proficient in NgRx and RxJS for managing complex application state and reactive data flows",
+        "Proficient in NgRx, RxJS and Signals for managing complex application state and reactive data flows",
     },
     // {
     //   icon: 'users',

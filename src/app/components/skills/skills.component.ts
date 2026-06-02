@@ -32,6 +32,7 @@ export class SkillsComponent {
         { name: "CSS3", level: 90 },
         { name: "RxJS", level: 85 },
         { name: "NgRx", level: 85 },
+        { name: "Signals", level: 85 },
         { name: "Angular Material", level: 80 },
         { name: "Bootstrap", level: 90 },
         { name: "Responsive Design", level: 90 },
@@ -40,7 +41,7 @@ export class SkillsComponent {
     {
       category: "Backend & APIs",
       icon: "server",
-      skills: [{ name: "Node.js" }, { name: "RESTful APIs" }, { name: "JSON" }],
+      skills: [{ name: "ASP.Net Core" }, { name: "RESTful APIs" }, { name: "JSON" }],
     },
     {
       category: "Tools & Platforms",

@@ -11,8 +11,9 @@ import { CommonModule } from '@angular/common';
 export class EducationComponent {
   education = {
     degree: 'Bachelor of Engineering',
-    field: 'Computer Science Engineering',
-    institution: 'Dr D.Y.Patil College of Engineering',
-    location: 'Pune'
+    field: 'Computer Engineering',
+    institution: 'Dr. D. Y. Patil College of Engineering, Ambi',
+    location: 'Pune',
+    duration: 'Aug 2016 - Oct 2020'
   };
 }

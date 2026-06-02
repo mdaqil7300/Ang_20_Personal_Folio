@@ -25,5 +25,5 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
   styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-  title = "Mohammad Aqil - Frontend Developer";
+  title = "Mohammad Aqil - Senior Angular Developer";
 }
